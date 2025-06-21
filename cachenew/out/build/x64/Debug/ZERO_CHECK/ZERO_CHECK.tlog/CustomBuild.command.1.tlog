@@ -1,0 +1,10 @@
+^D:\SMALL C PROJECTS\DATABASE_SERVER\CACHENEW\OUT\BUILD\CMAKEFILES\345A9B09023DAD25CD2D1780574BCD01\GENERATE.STAMP.RULE
+setlocal
+"D:\DIfferent Libraries\Cmake\cmake-4.0.3-windows-x86_64\cmake-4.0.3-windows-x86_64\bin\cmake.exe" "-SD:/Small C projects/Database_server/cachenew" "-BD:/Small C projects/Database_server/cachenew/out/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Small C projects/Database_server/cachenew/out/build/cachenew.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

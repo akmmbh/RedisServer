@@ -1,0 +1,3 @@
+D:/Small C projects/Database_server/cachenew/out/build/CMakeFiles/cachenew.dir
+D:/Small C projects/Database_server/cachenew/out/build/CMakeFiles/ALL_BUILD.dir
+D:/Small C projects/Database_server/cachenew/out/build/CMakeFiles/ZERO_CHECK.dir
