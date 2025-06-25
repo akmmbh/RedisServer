@@ -20,6 +20,15 @@ typedef unsigned int int32;
 typedef unsigned short int int16;
 typedef unsigned char int8;
 
+struct s_client{
+    int s;
+    char ip[ip];
+    int16 port;
 
-void mainloop(void);
-int main(int,char**);
+};
+typedef struct s_client Client;
+void zero(int8*,int16);
+void childloop(Client*);
+
+void mainloop(int);
+int main(int,char*);
